@@ -8,5 +8,5 @@ import lombok.Setter;
 public class AccountRequestDTO {
     private String accountNumber;
     private Long userId;
-
+    private String currency;
 }

@@ -48,7 +48,9 @@ databaseChangeLog:
               - column:
                   name: balance
                   type: DECIMAL(19,2)
-
+              - column:
+                  name: account_number
+                  type: VARCHAR(20)
         - createTable:
             tableName: transactions
             columns:
